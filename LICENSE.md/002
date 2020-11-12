@@ -1,0 +1,9 @@
+#include<stdio.h>
+void work(){
+
+	printf("打工人");
+}
+void main(){
+
+	work();
+}
