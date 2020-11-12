@@ -1,0 +1,9 @@
+#include<stdio.h>
+void sum(){
+
+return 2020;
+}
+void main(){
+
+	printf("%d",sum);
+}
