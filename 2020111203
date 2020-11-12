@@ -1,0 +1,9 @@
+#include<stdio.h>
+int sum(int c,int d){
+
+	return(c-d);
+}
+void main(){
+
+	printf("%d\n",sum(12,13));
+}
