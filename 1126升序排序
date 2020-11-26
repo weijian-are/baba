@@ -9,7 +9,7 @@ void main(){
 	{
 		for(b=a+1; b<3; b++)
 		{
-			if(i[a] > i[b])
+			if(i[a] < i[b])
 			{
 				l = i[a];
 				i[a]=i[b];
