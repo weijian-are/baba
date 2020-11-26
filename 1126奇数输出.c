@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main(){
+
+	int i=0;
+	while(i<1025){
+	
+		if(i%2)
+			printf("%d\n",i);
+		i++;
+	}
+}
