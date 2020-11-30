@@ -1,0 +1,18 @@
+#include<stdio.h>
+void swap(int*pa,int*pb){//定义一个方法swap()通过指针交换两个整数，并在main()中调用
+
+	int tmp=*pa;
+	*pa=*pb;
+	*pb=tmp;
+}
+int main(){
+	int a=3;
+	int b=5;
+	int*pa=&a;
+	int*pb=&b;
+	swap(pa,pb);
+	printf("a=%d,b=%d\n",a,b);
+
+
+
+}
