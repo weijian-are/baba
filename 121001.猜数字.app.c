@@ -9,6 +9,7 @@ void main(){
 	char a3[]="宝塔镇河妖";
 
 	printf("想玩游戏么，请先回答问题  天王盖地虎,__________!!\n");
+	while(1){
 	scanf("%s",&a1);
 	if(strcmp(a1,a2)==0){
 	printf("你可以进入游戏\n");
@@ -21,13 +22,16 @@ void main(){
 		printf("恭喜你答对了");
 		}
 	}
+	break;
 	}
 	else if(strcmp(a1,a3)==0){
-	printf("你不配进入游戏");
+	printf("你不配进入游戏\n");
 	}
 	else{
 	
 		printf("无效输入");
+	}
+
 	}
 
 
